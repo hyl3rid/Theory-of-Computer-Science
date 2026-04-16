@@ -71,3 +71,28 @@ theorem 2: concatenation of two languages results in regular language
 Definition of non-deterministic finite automata (NFA)
 In deterministic automata the next state is predictable but in non-deterministic (NFA) there could be random and multiple different next states.
 epsilon means emptry string/input and could start an empty state
+
+NFA will show a 0 in the diagram meaning what is accepted
+
+L = { Set of all string that end with 0 }
+
+NFA allows states to loopback
+
+tuples = Q, sigma, q not q(o), f, del
+
+Q = set of all state {A,B}
+sigma (E) = inputs - {0,1}
+Qo = start state {A}
+F = Set of final states {B}
+S(del) = QxSigma->__
+Ax0->A times 0 goes to A
+Ax0->B also goes to B
+Ax1->A
+Bx0->FI
+BX1->FI
+
+Inputs can be calculated into one or multiple results
+
+A->A,B,C,AB,AC,BC,ABC,FI...
+
+to calculate FI get the number of states and number of possibilities subtract them and raise by 2. result for previous examples is 2^Q(2 elevated by the states)
