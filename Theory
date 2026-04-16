@@ -66,3 +66,8 @@ ex
 
 theorem 1: union of regular languages results in another language
 theorem 2: concatenation of two languages results in regular language
+
+
+Definition of non-deterministic finite automata (NFA)
+In deterministic automata the next state is predictable but in non-deterministic (NFA) there could be random and multiple different next states.
+epsilon means emptry string/input and could start an empty state
