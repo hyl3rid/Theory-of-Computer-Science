@@ -313,3 +313,56 @@ Final states = {q1}
 Accepting state = q2 ❌
 
 👉 Result: NOT ACCEPTED
+
+🧩 Exercise 1 — DFA (Deterministic)
+📌 Problem
+Design a Deterministic Finite Automaton:
+States: {q0, q1, q2}
+Alphabet: {a, b}
+Start: q0
+Accepting: {q2}
+👉 Question:
+Design the transitions so that the DFA accepts:
+Strings that end with "aa"
+✅ Answer (one possible solution)
+Transitions:
+δ(q0, a) = q1
+δ(q0, b) = q0
+δ(q1, a) = q2
+δ(q1, b) = q0
+δ(q2, a) = q2
+δ(q2, b) = q0
+🧩 Exercise 2 — DFA (Deterministic)
+📌 Problem
+Design a Deterministic Finite Automaton:
+States: {q0, q1, q2}
+Alphabet: {a, b}
+Start: q0
+Accepting: {q2}
+👉 Question:
+Design the transitions so that the DFA accepts:
+Strings that contain "ab"
+✅ Answer (one possible solution)
+Transitions:
+δ(q0, a) = q1
+δ(q0, b) = q0
+δ(q1, a) = q1
+δ(q1, b) = q2
+δ(q2, a) = q2
+δ(q2, b) = q2
+🧩 Exercise 3 — DFA (Deterministic)
+📌 Problem
+Design a Deterministic Finite Automaton:
+States: {q0, q1}
+Alphabet: {a, b}
+Start: q0
+Accepting: {q0}
+👉 Question:
+Design the transitions so that the DFA accepts:
+Strings with an even number of "a"
+✅ Answer (one possible solution)
+Transitions:
+δ(q0, a) = q1
+δ(q0, b) = q0
+δ(q1, a) = q0
+δ(q1, b) = q1
