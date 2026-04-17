@@ -99,6 +99,13 @@ to calculate FI get the number of states and number of possibilities subtract th
 
 δ(q0(start),a(input))={q1(states),q2(states)}
 
+Formal structure:
+Q → states
+Σ → alphabet
+δ → transitions
+q₀ → start
+F → accepting states
+
 🧩 Exercise 1 — DFA (Deterministic)
 📌 Problem
 
