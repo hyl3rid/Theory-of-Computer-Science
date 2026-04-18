@@ -242,6 +242,7 @@ Accepting state = q1 ✅
 
 👉 Result: ACCEPTED
 
+
 🧩 Exercise 2 — NFA (Nondeterministic)
 📌 Problem
 
@@ -277,6 +278,7 @@ Final states = {q0, q1, q2}
 Accepting state = q2 ✅
 
 👉 Result: ACCEPTED
+
 
 🧩 Exercise 3 — NFA (Nondeterministic)
 📌 Problem
@@ -314,6 +316,7 @@ Accepting state = q2 ❌
 
 👉 Result: NOT ACCEPTED
 
+
 🧩 Exercise 1 — DFA (Deterministic)
 📌 Problem
 Design a Deterministic Finite Automaton:
@@ -332,6 +335,8 @@ Transitions:
 δ(q1, b) = q0
 δ(q2, a) = q2
 δ(q2, b) = q0
+
+
 🧩 Exercise 2 — DFA (Deterministic)
 📌 Problem
 Design a Deterministic Finite Automaton:
@@ -350,6 +355,8 @@ Transitions:
 δ(q1, b) = q2
 δ(q2, a) = q2
 δ(q2, b) = q2
+
+
 🧩 Exercise 3 — DFA (Deterministic)
 📌 Problem
 Design a Deterministic Finite Automaton:
